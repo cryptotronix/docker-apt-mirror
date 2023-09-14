@@ -1,4 +1,4 @@
-FROM debian:stretch
+FROM debian:bookworm
 MAINTAINER Abhas Abhinav <abhas@deeproot.in>
 
 RUN apt-get update && apt-get install -y apt-mirror
